@@ -1,0 +1,29 @@
+@import 'normalize-3.0.2';
+@import 'variables';
+@import 'mixins';
+@import 'layout';
+@import 'utilities';
+@import 'overrides';
+
+/* Background pattern from Subtle Patterns */
+html, body {
+	background-color: rgb(26,26,26);
+	//background: url(/img/dark-triangles.png);
+	color: #eee;
+}
+
+header, footer {
+	min-height: 100px;
+}
+
+#canvas-container {
+	margin: 0 auto;
+	width: 1280px !important;
+	max-width: 1280px;
+	height: 720px !important;
+	max-height: 720px;
+}
+canvas {
+	width: 1280px;
+	height: 720px;
+}
